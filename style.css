@@ -29,6 +29,7 @@ body{
 .into a{
     text-decoration: none;
     background: orangered;
+    background-image: linear-gradient(orange, orangered);
     color: #FFFFFF;
     padding: 8px;
     border-radius: 10px;
@@ -53,11 +54,17 @@ body{
     text-align: center;
     text-decoration: none;
 }
+
 .select{
     background: orangered;
+    background-image: linear-gradient(orange, orangered);
 }
 .unselect{
     background: #FFFFFF;
+}
+.unselect:hover{
+    background: orangered;
+    background-image: linear-gradient(orange, orangered);
 }
 .select a{
     color: #FFFFFF;
@@ -85,9 +92,11 @@ body{
     margin-bottom: 30px;
 }
 .transfer-button{
-    background-color: orangered;
     border-radius: 5px;
-    
+    background-image: linear-gradient(orange, orangered);
+}
+.transfer-button :hover{
+    background-image: linear-gradient(orange, rgb(199, 193, 191));
 }
 .transfer-info{
     display: flex;
